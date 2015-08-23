@@ -1,33 +1,33 @@
 body{
-	/*background-color: #979797;esto permite agregar color de fondo al Body*/
-	background-image: url(../images/fondo.jpg);*/
-	background-position: center;
-	background-attachment: fixed;
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.24, rgb(112, 203, 255)),
+	color-stop(0.78, rgb(48, 72, 255))
+);
+background-image: -o-linear-gradient(bottom, rgb(112, 203, 255) 24%, rgb(48, 72, 255) 78%);
+background-image: -moz-linear-gradient(bottom, rgb(112, 203, 255) 24%, rgb(48, 72, 255) 78%);
+background-image: -webkit-linear-gradient(bottom, rgb(112, 203, 255) 24%, rgb(48, 72, 255) 78%);
+background-image: -ms-linear-gradient(bottom, rgb(112, 203, 255) 24%, rgb(48, 72, 255) 78%);
+background-image: linear-gradient(to bottom, rgb(112, 203, 255) 24%, rgb(48, 72, 255) 78%);
 }
 h1{
 	font-family: "Times New Roman", Georgia, Serif;
 	font-size: 32px;
 }
 h3{
-
-    -moz-box-shadow: 8px 13px 6px #383638;
-    -webkit-box-shadow: 8px 13px 6px #383638;
-    box-shadow: 8px 13px 6px #383638;
-
-	background-color: #6B6969;
-    border:solid 2px #6771a3;
-    -moz-border-radius: 11px;
-    -webkit-border-radius: 11px;
-    border-radius: 5px;
+	-webkit-box-shadow: 5px 5px 40px 1px #030101;
+	box-shadow: 5px 5px 40px 1px #030101;
 	font-family: "Times New Roman", Georgia, Serif;
 	font-size: 20px;
+	background-color: #8B8B8B;
 }
 img{
 	width: 200px;
 	height: 230px;
-    -moz-box-shadow: 11px 8px 17px #c21f1f;
-    -webkit-box-shadow: 11px 8px 17px #c21f1f;
-    box-shadow: 11px 8px 17px #c21f1f;
+    -webkit-box-shadow: 5px 5px 40px 1px #030101;
+	box-shadow: 5px 5px 40px 1px #030101;
 }
 p{
 	font-family: "Times New Roman", Georgia, Serif;
