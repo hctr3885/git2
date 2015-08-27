@@ -33,3 +33,15 @@ p{
 	font-family: "Times New Roman", Georgia, Serif;
 	font-size: 16px;	
 }
+.modelo_caja{
+	background-color: #ffffff;
+	width: 400px;
+	height: 250px;	
+
+	margin: 20px;
+	padding: 20px;
+	float: left;
+}	
+.clear{
+	clear: both;
+}
